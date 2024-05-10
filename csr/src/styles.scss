@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark: #212a31;
+  --grey: #2e3944;
+  --primary: #124e66;
+  --secondary: #748d92;
+  --tertiary: #98ffe7;
+  --light: #dee8e8;
+  --white: #fff;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*, {
+  box-sizing: border-box;
+}

@@ -7,7 +7,7 @@ import {SkillsComponent} from '@ui/skills/skills.component';
 import {AboutComponent} from '@ui/about/about.component';
 
 @Component({
-  selector: 'app-root',
+  selector: 'tr-root',
   standalone: true,
   imports: [RouterOutlet, SidebarComponent, ProjectsComponent, ExperienceComponent, SkillsComponent, AboutComponent],
   templateUrl: './app.component.html',

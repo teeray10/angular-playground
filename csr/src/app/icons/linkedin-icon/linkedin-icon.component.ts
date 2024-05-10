@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-linkedin-icon',
+  selector: 'tr-linkedin-icon',
   standalone: true,
   imports: [],
   templateUrl: './linkedin-icon.component.html',

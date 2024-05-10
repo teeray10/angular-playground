@@ -3,7 +3,7 @@ import {GithubIconComponent} from '@icons/github-icon/github-icon.component';
 import {LinkedinIconComponent} from '@icons/linkedin-icon/linkedin-icon.component';
 
 @Component({
-  selector: 'app-social',
+  selector: 'tr-social',
   standalone: true,
   imports: [
     GithubIconComponent,

@@ -3,7 +3,7 @@ import {SocialComponent} from '@ui/social/social.component';
 import {NavComponent} from '@ui/nav/nav.component';
 
 @Component({
-  selector: 'app-sidebar',
+  selector: 'tr-sidebar',
   standalone: true,
   imports: [
     SocialComponent,

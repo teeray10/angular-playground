@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import {SocialComponent} from '@ui/social/social.component';
+import {NavComponent} from '@ui/nav/nav.component';
 
 @Component({
   selector: 'app-sidebar',
   standalone: true,
   imports: [
-    SocialComponent
+    SocialComponent,
+    NavComponent
   ],
   templateUrl: './sidebar.component.html',
   styleUrl: './sidebar.component.scss'

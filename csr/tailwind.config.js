@@ -9,6 +9,7 @@ module.exports = {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
         tertiary: "var(--tertiary)",
+        accent: "var(--accent)",
         light: "var(--light)",
         dark: "var(--dark)",
       },

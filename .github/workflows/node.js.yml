@@ -21,6 +21,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - uses: pnpm/action-setup@v4
+      with:
+        version: 8
     - run: ls
     - run: cd csr
     - name: Use Node.js ${{ matrix.node-version }}

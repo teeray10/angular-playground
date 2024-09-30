@@ -1,5 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { OAuthService } from 'angular-oauth2-oidc';
+import { OAUTH_STORAGE } from '../../config/oauth.config';
 
 @Component({
   selector: 'app-home',
@@ -25,6 +26,6 @@ export class HomeComponent {
   }
 
   get accessToken() {
-    return sessionStorage.getItem('access_token');
+    return OAUTH_STORAGE.getItem('access_token');
   }
 }

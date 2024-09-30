@@ -8,3 +8,5 @@ export const OAUTH_CONFIG: AuthConfig = {
     responseType: 'code',
     showDebugInformation: true
 };
+
+export const OAUTH_STORAGE = localStorage;

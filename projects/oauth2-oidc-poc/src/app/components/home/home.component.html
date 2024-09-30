@@ -1,0 +1,9 @@
+@if (accessToken) {
+    Name: {{ username }}
+    Access Token: {{ accessToken }}
+    <button (click)="logout()">Log out</button>
+} @else {
+    You are signed out!
+
+    <button (click)="login()">Log in</button>
+}
